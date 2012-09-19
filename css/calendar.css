@@ -1,0 +1,65 @@
+#calendar #monthly-calendar  td{
+    height: 75px;
+    font-size: 12px;
+    width: 14%;
+}
+
+
+#calendar #monthly-calendar .calendar-event {
+    position: relative;
+    display: block;
+    background: #cccc33;
+    margin-left: -8px;
+    margin-right: -9px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+#calendar #monthly-calendar .start-day {
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -7px;
+}
+
+#calendar #monthly-calendar .end-day {
+    border-radius: 0px 5px 5px 0px;
+    margin-right: -7px;
+}
+
+#calendar #monthly-calendar .other-month-date {
+    color: #ccc;
+}
+
+/******************
+ ******************
+ * WEEKLY CALENDAR
+ ******************
+ ******************/
+
+#calendar #weekly-calendar th {
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+}
+
+#calendar #weekly-calendar .today {
+    background-color: #f1f2f2;
+}
+
+
+#calendar #weekly-calendar #calendar-row > td {
+    padding: 0;
+    margin: 0;
+}
+
+#calendar #weekly-calendar .weekly-cell {
+    border-bottom: 1px solid #f1f2f2;
+}
+#calendar #weekly-calendar .weekly-time {
+    border-bottom: 1px solid #f1f2f2;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#calendar #weekly-calendar #week-wrapper {
+    position: relative;
+}
